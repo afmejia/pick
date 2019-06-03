@@ -1,0 +1,118 @@
+#bet {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    flex-grow: 2;
+    flex-direction: column;
+}
+
+#hurry {
+    color: white;
+    margin-top: 17px;
+}
+
+#nfl-pick {
+    color: yellow;
+    font-family: 'Raleway';
+    font-size: 1.3em;
+
+font-weight: bolder;
+
+padding-top: 8px;
+}
+
+.banner {
+    background-image: url('banner-2-black.png');
+}
+
+.bet-button {
+    background-color: rgb(254, 160, 23);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 10px 28px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 4px;
+    flex-grow: 1;
+    margin-top: 43px;
+}
+
+.centered {
+    text-align: center;
+    font-weight: bold;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    display: inline-flex;
+}
+
+.remaining {
+    color: white;
+    font-size: 1em;
+    padding-top: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.section {
+    flex-grow: 1;
+}
+
+.section-large {
+    flex-grow: 3;
+    margin: 10px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.timer {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.timer-item {
+    background: rgb(241, 43, 3);
+    width: 50px;
+    height: 40px;
+    margin: 1px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.legend {
+    padding-top: 8px;
+    line-height: 0px;
+    font-size: 0.7em;
+}
+
+.value {
+    font-size: 1em;
+    padding-top: 0px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .main.banner{
+        flex-direction: column;
+    }
+
+    .bet-button {
+        margin: 10px 125px; 
+    }
+}
